@@ -8,7 +8,7 @@ const AppProvider = ({ children }) => {
   const [isLoading,setIsLoading] = useState(true);
   const [dataMovie,setDataMovie] = useState([]);
   const [error,setError] = useState({show:false,message:''});
-  const [query,setQuery] = useState('one piece')
+  const [query,setQuery] = useState('aladdin')
 
   const fetchFilm = async (url) =>{
     setIsLoading(true)
